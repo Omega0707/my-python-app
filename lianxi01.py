@@ -1,3 +1,6 @@
+'''
+给你一个字符串 s，找到 s 中最长的 回文子串。
+'''
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         def calculate(s, left, right):
